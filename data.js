@@ -2,7 +2,6 @@ const products = [
     {
         imgLink: "./data/product-Img/son 1.png",
         demoLink: "./data/product-Img/demo 1.jpg",
-        // imgArr: [imgLink, demoLink],
         title: "VIEVE MODERN MATTE LIPSTICK",
         price: "£23.00",
         auth: "VIEVE",
@@ -11,7 +10,6 @@ const products = [
     {
         imgLink: "./data/product-Img/son 2.jpg",
         demoLink: "./data/product-Img/demo 2.jpg",
-        // imgArr: [imgLink, demoLink],
         title: "NARS Cosmetics Matte Lipstick",
         price: "£23.00",
         auth: "NARS",
@@ -20,7 +18,6 @@ const products = [
     {
         imgLink: "./data/product-Img/son 3.jpg",
         demoLink: "./data/product-Img/demo 3.jpg",
-        // imgArr: [imgLink, demoLink],
         title: "Silk Matte Liquid Lipstick",
         price: "£23.00",
         auth: "SILK MATTE",
@@ -29,7 +26,6 @@ const products = [
     {
         imgLink: "./data/product-Img/son 4.jpg",
         demoLink: "./data/product-Img/demo 4.jpg",
-        // imgArr: [imgLink, demoLink],
         title: "Silk Matte Liquid Lipstick",
         price: "£23.00",
         auth: "VIEVE",
@@ -38,7 +34,6 @@ const products = [
     {
         imgLink: "./data/product-Img/son 5.jpg",
         demoLink: "./data/product-Img/demo 5.jpg",
-        // imgArr: [imgLink, demoLink],
         title: "Silk Matte Liquid Lipstick",
         price: "£23.00",
         auth: "VIEVE",
@@ -47,7 +42,6 @@ const products = [
     {
         imgLink: "./data/product-Img/son 6.jpg",
         demoLink: "./data/product-Img/demo 6.jpg",
-        // imgArr: [imgLink, demoLink],
         title: "Silk Matte Liquid Lipstick",
         price: "£23.00",
         auth: "VIEVE",

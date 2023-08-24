@@ -172,13 +172,13 @@ nav {
 
 @media (max-width: 768px) and (min-width: 551px) {
     .search-bar {
-        width: 60%;
+        width: 80%;
     }
 }
 
 @media (max-width: 550px) {
     .search-bar {
-        width: 60%;
+        width: 80%;
     }
 }
 .grid {
@@ -384,16 +384,21 @@ footer {
 }
 .modal__box {
     user-select: none;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     position: fixed;
     font-family: var(--base-font);
-    top: 5%;
-    left: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     z-index: 101;
-    width: 40vw;
-    height: 90vh;
+    width: 40%;
+    height: 90%;
     background-color: var(--white-color);
     border-radius: 10px;
+    max-width: 600px;
+    max-height: 800px;
+    overflow: hidden;
+    overflow-y: auto;
     display: none;
 }
 .modal__product-img {
@@ -444,7 +449,7 @@ footer {
     margin-top: 20px;
 }
 .close-icon {
-    position: absolute;
+    position: fixed;
     color: var(--grey-color);
     font-size: 30px;
     right: 20px;
@@ -452,4 +457,50 @@ footer {
 }
 .control-icon {
     cursor: pointer;
+}
+
+@media (min-width: 1061px) and (max-width: 1460px) {
+    .modal__box {
+        width: 50%;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+}
+@media (min-width: 891px) and (max-width: 1060px) {
+    .modal__box {
+        width: 60%;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+}
+@media (min-width:761px) and (max-width: 890px) {
+    .modal__box {
+        width: 70%;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+}
+@media (min-width: 671px) and (max-width: 760px) {
+    .modal__box {
+        width: 80%;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+}
+@media (max-width: 670px) {
+    .modal__box {
+        width: 90%;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+}
+@media (max-width: 550px) {
+    .modal__product-img__img {
+        width: 80%;
+    }
+}
+@media (min-width: 551px) and (max-width: 760px) {
+    .modal__product-img__img {
+        width: 60%;
+    }
 }

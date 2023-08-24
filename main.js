@@ -22,12 +22,10 @@ function handleNavMenu() {
 const inputBar = document.getElementById("input-bar");
 function responsive(screenSize) {
     if (screenSize <=700 ) {
-        inputBar.placeholder = "Tìm kiếm";
-        searchBar.style.width= "60%";
+        inputBar.placeholder = "Search";
     }
     else {
-        inputBar.placeholder = "Tìm kiếm sản phẩm";
-        searchBar.style.width= "40%";
+        inputBar.placeholder = "Discover your signature lip shade..";
     }
 }
 window.addEventListener("resize", () => {
@@ -66,7 +64,7 @@ function updateProductDisplay(productArray) {
     var productsHTML;
     if (productArray.length === 0) {
         productsHTML = `
-        <span class="announce-text">Không tìm thấy sản phẩm :(</span>
+        <span class="announce-text">Oops! We couldn't find the product you're looking for :(</span>
         `;
     }
     else {
@@ -135,7 +133,7 @@ function openModalBox(productItem) {
         <p class="modal__product-content">
             ${productItem.content}
         </p>
-        <a class="modal__btn" href="https://www.facebook.com/messages/t/100069438736735" target="_blank">
+        <a class="modal__btn" href="https://www.facebook.com" target="_blank">
             ORDER BY MESSENGER
         </a>
     `;
