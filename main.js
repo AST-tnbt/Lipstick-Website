@@ -19,15 +19,6 @@ function handleNavMenu() {
         menuIcon.innerHTML = `<i class="fa-solid fa-bars"></i>`;
     }
 }
-const inputBar = document.getElementById("input-bar");
-function responsive(screenSize) {
-    if (screenSize <=700 ) {
-        inputBar.placeholder = "Search";
-    }
-    else {
-        inputBar.placeholder = "Discover your signature lip shade..";
-    }
-}
 window.addEventListener("resize", () => {
     responsive(window.innerWidth);
 });
